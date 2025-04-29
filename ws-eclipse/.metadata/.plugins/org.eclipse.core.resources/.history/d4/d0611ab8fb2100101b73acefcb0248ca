@@ -1,0 +1,14 @@
+
+public class SaidaDeDados {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//colocando o texto na mesma linha
+		System.out.print("Bom dia ");
+		System.out.print("Boa tarde");
+		
+
+	}
+
+}

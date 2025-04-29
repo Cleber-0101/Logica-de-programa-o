@@ -1,0 +1,53 @@
+import java.util.Locale;
+
+public class treinoVariaveis {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		int idade ;
+		idade = 25;
+		System.out.println(idade);
+		
+		int valor1;
+		int valor2;
+		valor1 = 150;
+		valor2 = 150;
+		
+		System.out.println("O resultado: " + (valor1 + valor2));
+		
+		
+		double altura;
+		altura = 1.84;
+		System.out.println("A minha altura é: " + altura + "m");
+		
+		
+		boolean estaLogado;
+		estaLogado = false;
+		System.out.println("Qual status do usuario: " + estaLogado);
+		
+		String nome;
+		nome = "Cleber";
+		System.out.println("Bem vindo ao mundo do JAVA: " + nome); 
+		
+		double media1; 
+		double media2;
+		media1 = 15.00;
+		media2 = 18.00;
+		System.out.println("o valor da media é: " + (media1 + media2 / 2));
+		
+		char feminino;
+		char masculino;
+		feminino = 'F';
+		masculino = 'M';
+		System.out.println("Qual genero voce é: " + masculino + ", indicando que sou Homem");		
+				
+		double  salario;
+		salario = 10000 ;
+		System.out.println("O salario anual deste funcionario é de : " + (salario * 12));
+		
+	  
+	}
+
+}
