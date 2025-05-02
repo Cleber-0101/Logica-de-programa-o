@@ -59,7 +59,10 @@ public class treinoVariaveis {
 		alturaPessoa1 = 1.85;
 		
 		System.out.println("O programador " + nomePessoa1 + " tem a idade de: " + idadePessoa1 + " e possue: " + alturaPessoa1 + " de altura ");
-		  
+		
+		
+		
+	  
 	}
 
 }

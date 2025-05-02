@@ -22,8 +22,8 @@ public class SaidaDeDados {
 		cidadeAondeMora = "São Paulo, Br "; 
 		
 		//saida de dados 
-		System.out.println("Meu nome é " + nome + " tenho, " + idade + " de idade e " + "moro na " + Logradouro 
-				+ " tenho a altura de: " + altura + " moro na cidade de: " + cidadeAondeMora);
+		System.out.println("Meu nome é " + nome + " tenho: " + idade + "de idade e " + "moro na " + Logradouro 
+				+ "tenho a altura de: " + altura + "moro na cidade de: " + cidadeAondeMora);
 		
 	}
 }

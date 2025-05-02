@@ -5,9 +5,10 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//System.out.println("Ola mundo");
-	     Locale.setDefault(Locale.US);
-	     //sempre que eu for usar o ponto no lugar virgula usar o Locale,setDeafult(Locale.Us)
-				
+		Locale.setDefault(Locale.US);
+		
+		//inicio do algoritmo
+		
 		int idade;
 		double salario ,altura;
 		char genero;
@@ -25,6 +26,7 @@ public class Main {
 		System.out.println("GENERO = " + genero);
 		System.out.println("NOME = " + nome);
 		
+		//final do algoritmo
 		
 	}
 

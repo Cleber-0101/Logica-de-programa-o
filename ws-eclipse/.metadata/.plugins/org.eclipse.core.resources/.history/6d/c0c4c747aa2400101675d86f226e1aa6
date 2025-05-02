@@ -12,13 +12,10 @@ public class treinoVariaveis {
 		
 		Double valor1;
 		int valor2;
-		valor1 = 2.452458;
+		valor1 = 2.452458(String.format("%2f", valor1));
 		valor2 = 150;
 		
-		//formatando saida de dados
-		System.out.println(String.format("%.2f" , valor1));
-		
-		System.out.println("O resultado: " + (valor1 + valor2));
+		System.out.println("O resultado: " + (valor1(String.format("")) + valor2));
 		
 		
 		double altura;
@@ -50,16 +47,7 @@ public class treinoVariaveis {
 		salario = 10000 ;
 		System.out.println("O salario anual deste funcionario é de : " + (salario * 12));
 		
-		String nomePessoa1 ;
-		int idadePessoa1;
-		double alturaPessoa1;
-		
-		nomePessoa1 = "Cleber Batista ( Dev Java)";
-		idadePessoa1 = 25;
-		alturaPessoa1 = 1.85;
-		
-		System.out.println("O programador " + nomePessoa1 + " tem a idade de: " + idadePessoa1 + " e possue: " + alturaPessoa1 + " de altura ");
-		  
+	  
 	}
 
 }
