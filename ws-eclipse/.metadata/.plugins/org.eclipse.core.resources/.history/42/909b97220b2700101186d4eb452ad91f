@@ -21,8 +21,8 @@ public class ProcessamentoCasting {
 		int numero1;
 		int numero2;
 		
-		numero1 = 100;
-				numero2 = 2;
+		numero1 = 100
+				numero2 = 2
 		
 		
 		resultado1 = numero1 * numero2;

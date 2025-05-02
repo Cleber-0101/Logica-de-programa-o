@@ -17,17 +17,14 @@ public class ProcessamentoCasting {
 		
 		
 		String nomeString;
-		double resultado1;
+		double resultado
+		;
 		int numero1;
 		int numero2;
 		
-		numero1 = 100;
-				numero2 = 2;
+		resultado = numero1 * numero2
 		
-		
-		resultado1 = numero1 * numero2;
-		
-		System.out.println(resultado1);
+		System.out.println(resultado);
 		
 		
 		
