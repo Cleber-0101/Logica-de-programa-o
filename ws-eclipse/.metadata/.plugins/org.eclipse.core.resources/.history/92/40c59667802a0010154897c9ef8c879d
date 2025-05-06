@@ -1,0 +1,20 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EntradaDeDadosEmJava {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		//Iniciando entrada de dados em Java
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		//iniciando o algoritmo
+		System.out.println("Qual seu nome? ");
+		String nome = entrada.nextLine();
+		
+		
+	}
+
+}

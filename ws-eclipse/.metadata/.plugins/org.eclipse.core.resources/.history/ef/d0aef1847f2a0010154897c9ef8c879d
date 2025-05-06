@@ -7,9 +7,7 @@ public class Main {
 		//System.out.println("Ola mundo");
 	     Locale.setDefault(Locale.US);
 	     //sempre que eu for usar o ponto no lugar virgula usar o Locale,setDeafult(Locale.Us)
-			
-	     
-	     //variaves e tipos de dados
+				
 		int idade;
 		double salario ,altura;
 		char genero;

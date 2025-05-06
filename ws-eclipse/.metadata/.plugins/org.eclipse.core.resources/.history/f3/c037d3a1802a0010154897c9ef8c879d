@@ -11,27 +11,27 @@ public class EntradaDeDadosEmJava {
 		Scanner entrada = new Scanner(System.in);
 		
 		//iniciando o algoritmo
-		System.out.print("Qual seu nome? ");
+		System.out.println("Qual seu nome? ");
 		String nome = entrada.nextLine();
 		
-		System.out.print("Qual sua idade ?");
+		System.out.println("Qual sua idade ?");
 		int idade = entrada.nextInt();
 		
-		System.out.print("Qual sua altura ");
+		System.out.println("Qual sua altura ");
 		double altura = entrada.nextDouble();
 		
-		System.out.print("voce se considera do sexo masculino ou feminino ?");
+		System.out.println("voce se considera do sexo masculino ou feminino ?");
 		String sexo = entrada.next();
 		
-		System.out.print("Voce é maior de idade ?");
+		System.out.println("Voce é maior de idade ?");
 		boolean MaiorDeIdade = entrada.nextBoolean();
 		
 		
-		System.out.print("O meu nome é: " + nome + " minha idade é de: " + idade + 
+		System.out.println("O meu nome é: " + nome + " minha idade é de: " + idade + 
 				" minha altura é de " + altura +  " eu me considero do sexo: " + sexo + " eu sou  maior de idade: " + MaiorDeIdade);
 		
 		entrada.close();
-	
+		
 		
 		
 		

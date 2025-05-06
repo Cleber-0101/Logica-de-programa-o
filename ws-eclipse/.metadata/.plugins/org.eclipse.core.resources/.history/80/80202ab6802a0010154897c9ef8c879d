@@ -31,7 +31,7 @@ public class EntradaDeDadosEmJava {
 				" minha altura é de " + altura +  " eu me considero do sexo: " + sexo + " eu sou  maior de idade: " + MaiorDeIdade);
 		
 		entrada.close();
-	
+		
 		
 		
 		
