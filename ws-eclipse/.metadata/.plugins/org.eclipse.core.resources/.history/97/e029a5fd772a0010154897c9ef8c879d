@@ -15,7 +15,6 @@ public class ProcessamentoCasting {
 		b = 2;
 		
 		//Processamento de dados
-		//neste caso a variavel A e B esta como o tipo INT e eu transformei ela para o tipo Double 
 		resultado = (double) a / b;
 		
 		
