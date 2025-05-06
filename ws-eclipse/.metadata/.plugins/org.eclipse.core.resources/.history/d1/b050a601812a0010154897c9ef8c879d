@@ -26,12 +26,10 @@ public class EntradaDeDadosEmJava {
 		System.out.print("Voce é maior de idade ?");
 		boolean MaiorDeIdade = entrada.nextBoolean();
 		
-		//processamento e saida de dados
+		
 		System.out.print("O meu nome é: " + nome + " minha idade é de: " + idade + 
 				" minha altura é de " + altura +  " eu me considero do sexo: " + sexo + " eu sou  maior de idade: " + MaiorDeIdade);
 		
-		
-		//finalizando o algoritmo
 		entrada.close();
 	
 		
