@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ExerciciosCompostos {
+
+	public static void main(String[] args) {
+		
+		Scanner entradaDeDados = new Scanner(System.in);
+		
+		String nome1, nome2;
+		double salario1 , salario2;
+		int idade;
+		char sexo;
+		
+		//logica basica 
+		System.out.println("Digite o nome da primeira pessoa: ");
+		nome1 = entradaDeDados.nextLine();
+		
+		
+	}
+ 
+}

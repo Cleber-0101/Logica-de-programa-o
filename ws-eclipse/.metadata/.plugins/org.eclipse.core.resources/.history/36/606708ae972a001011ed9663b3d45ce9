@@ -11,13 +11,13 @@ public class ExerciciosCompostos {
 		int idade;
 		char sexo;
 		
-		//logica basica trabalhando com entrada de dados
+		//logica basica 
 		System.out.println("Digite o nome da primeira pessoa: ");
 		nome1 = entradaDeDados.nextLine();
-		System.out.println("Digite o salario da primeira pessoa: ");
+		System.out.println("Digite o salario da segunda pessoa: ");
 		salario1 = entradaDeDados.nextDouble();
 		
-		System.out.println("Digite o nome da segunda pessoa: ");
+		System.out.println("Digite o nome da primeira pessoa: ");
 		entradaDeDados.nextLine();
 		nome2 = entradaDeDados.nextLine();
 		System.out.println("Digite o salario da segunda pessoa: ");
@@ -28,14 +28,12 @@ public class ExerciciosCompostos {
 		System.out.println("Digite um sexo (F/M): ");
 		sexo = entradaDeDados.next().charAt(0);
 		
-		
-		System.out.println("******************************************");
 		System.out.println("Nome 1: " + nome1);
 		System.out.println("Salario 1: " + String.format("%.2f", salario1));
-		System.out.println("Nome 2: " + nome2);
-		System.out.println("Salario 2: " + String.format("%.2f", salario2));
-		System.out.println("Idade: " + idade);
-		System.out.println("Sexo: " + sexo);
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
 
 
 	}

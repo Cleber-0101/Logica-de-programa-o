@@ -14,7 +14,7 @@ public class ExerciciosCompostos {
 		//logica basica trabalhando com entrada de dados
 		System.out.println("Digite o nome da primeira pessoa: ");
 		nome1 = entradaDeDados.nextLine();
-		System.out.println("Digite o salario da primeira pessoa: ");
+		System.out.println("Digite o salario da segunda pessoa: ");
 		salario1 = entradaDeDados.nextDouble();
 		
 		System.out.println("Digite o nome da segunda pessoa: ");
@@ -28,8 +28,6 @@ public class ExerciciosCompostos {
 		System.out.println("Digite um sexo (F/M): ");
 		sexo = entradaDeDados.next().charAt(0);
 		
-		
-		System.out.println("******************************************");
 		System.out.println("Nome 1: " + nome1);
 		System.out.println("Salario 1: " + String.format("%.2f", salario1));
 		System.out.println("Nome 2: " + nome2);
