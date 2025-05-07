@@ -1,0 +1,25 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExerciciosPropostosResolvidos {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner leitorDeNotas = new Scanner(System.in);
+		
+		
+		//Aluno recebe nota maior que 60.00 aprovado, menor que isso reprovado
+		double aluno1;
+		double aluno2;
+		
+		System.out.println("Aluno 1 qual foi sua nota ?");
+		double nota = leitorDeNotas.nextDouble();
+		
+		System.out.println("Aluno 2 qual foi sua nota ?");
+		
+		
+	}
+
+}

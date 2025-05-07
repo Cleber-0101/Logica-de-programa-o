@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="Nome (String)"/>
+		<list key="findhistory">
+			<item value="Nome (String)"/>
+			<item value="&#x0D;&#x0A;Classe do personagem (String)&#x0D;&#x0A;&#x0D;&#x0A;Idade (int)&#x0D;&#x0A;&#x0D;&#x0A;Altura (double)&#x0D;&#x0A;&#x0D;&#x0A;Sexo (char)&#x0D;&#x0A;&#x0D;&#x0A;Está vivo? (boolean)&#x0D;&#x0A;&#x0D;&#x0A;Pontos de Força (int)&#x0D;&#x0A;&#x0D;&#x0A;Pontos de Defesa (int)&#x0D;&#x0A;&#x0D;&#x0A;Pontos de Velocidade (int)"/>
+		</list>
+	</section>
+</section>
