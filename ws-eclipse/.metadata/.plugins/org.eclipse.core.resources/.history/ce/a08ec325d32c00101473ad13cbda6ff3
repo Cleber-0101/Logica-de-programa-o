@@ -1,0 +1,26 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner leitura = new Scanner(System.in);
+		
+		int a = leitura.nextInt();
+		int b = leitura.nextInt();
+		int c = leitura.nextInt();
+		
+		if(a < b && a < c) {
+			System.out.println("MENOR = "  + a);
+		}else {
+			if(b < c) {
+				System.out.println("MENOR = " + c);
+			}
+		}
+		
+		
+		leitura.close();
+	}
+
+}
